@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: black;
+  background-color: linen;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+
+h2 {
+  text-align: center;
+}
+
+section {
+  border: solid black 1px;
+  background-color: #BBB6B5;
+  width: 80%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin:2%;
+    text-align: left;
+
+}
+
+.row {
+   width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+   float: left;
+   width: 29.33%;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+   float: left;
+   margin-left: 2%
+  }
+
+  .col-md-6 {
+    width: 46%;
+  }
+  .col-md-12 {
+    width: 96%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-lg-12 {
+   float: left;
+   width: 80%;
+   margin-left: 13%;
+
+
+
+ }
+}
+
+
+section .boxes {
+  position: absolute;
+  width: 33%;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  right: 34%;
+  font-size: 1.25em;
+  
+}
+
+section .text {
+  padding-top: 35px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+
+}
+
+
+
+
+
+
+
+
+/** HEADER **/
+#header-nav {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 20px;
+}
+
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Times New Roman', serif;
+  color: black;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: midnightblue;
+  text-align: center;
+  border: 1px black solid;
+  background-color: linen;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 7vw; /* 1vw = 1% of viewport width */
+  }
+ 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+
